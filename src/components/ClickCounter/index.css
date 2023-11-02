@@ -1,0 +1,53 @@
+/* Write your CSS here */
+
+.counter-container {
+  display: flex;
+  align-content: center;
+  text-align: center;
+  width: 70%;
+}
+
+.heading {
+  color: #2d3a35;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.count-value {
+  color: #c20a72;
+}
+
+.button-label {
+  color: #f1f5f8;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.button {
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .counter-container {
+    width: 90%;
+  }
+
+  .heading {
+    font-size: 32px;
+  }
+
+  .button-label {
+    font-size: 24px;
+  }
+
+  .button {
+    font-size: 18px;
+    padding: 15px;
+  }
+}
